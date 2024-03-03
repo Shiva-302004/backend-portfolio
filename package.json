@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "shiva verma portfolio",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shiva-302004/backend-portfolio.git"
+  },
+  "author": "shiva verma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shiva-302004/backend-portfolio/issues"
+  },
+  "homepage": "https://github.com/Shiva-302004/backend-portfolio#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "mongoose": "^8.2.0",
+    "nodemailer": "^6.9.11",
+    "validator": "^13.11.0"
+  }
+}
