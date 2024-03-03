@@ -11,7 +11,7 @@ const contactuserdetails=async(req,res)=>{
     if(!subject) res.status(400).json({msg:"subject feild is required"})
     if(!message) res.status(400).json({msg:"message feild is required"})
     if(!phone) res.status(400).json({msg:"phone feild is required"})
-    if(phone.length<10 || phone.length>10) res.status(400).json({msg:"enter valid phone number"})
+    // if(phone.length<10 || phone.length>10) res.status(400).json({msg:"enter valid phone number"})
     if(!validator.isEmail(email)){
         res.status(400).json({
             msg:"enter valid email",
